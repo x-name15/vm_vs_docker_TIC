@@ -1,0 +1,11 @@
+Metric,VM,Docker
+CPU (Events/sec),836.47,849.49
+CPU (Latency ms),1.19,1.18
+Memory (Throughput MiB/s),4536.36,4660.1
+Memory (Latency ms),0.0,0.0
+Disk (Reads/sec),447.81,494.29
+Disk (Writes/sec),298.54,329.53
+Disk (Read Throughput MiB/s),7.0,7.72
+Disk (Write Throughput MiB/s),4.66,5.15
+Disk (Latency ms),0.58,0.53
+Boot Time (s),28.196,1.024

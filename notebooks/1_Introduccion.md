@@ -1,0 +1,3 @@
+# Introducción: ¿Qué son las máquinas virtuales y los contenedores? 
+- Contenedores: comparten el núcleo del sistema operativo del host y encapsulan solo la aplicación y sus dependencias. Esto los hace más ligeros y eficientes en términos de recursos, aunque con un aislamiento menor comparado con las VMs
+- VM: son entornos que emulan un hardware completo, incluyendo su propio sistema operativo, sobre el cual se ejecutan aplicaciones. Esto proporciona un alto nivel de aislamiento, pero consume más recursos

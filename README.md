@@ -38,8 +38,4 @@ Este proyecto evalúa y compara el rendimiento de una Máquina Virtual (VM) y un
 - Comparación detallada en [`notebooks/5_Analisis_de_resultados.ipynb`](notebooks/5_Analisis_de_resultados.ipynb) y [`results/comparison_vm_docker.csv`](results/comparison_vm_docker.csv).
 - Gráficos en [`results/comparison_vm_docker.png`](results/comparison_vm_docker.png).
 
-## Autor
-
-Felix Rodrigo Manrique Bejarano
-
 ---

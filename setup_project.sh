@@ -82,6 +82,7 @@ cat > "$BASE_DIR/scripts/Dockerfile" << 'EOF'
 FROM ubuntu:20.04
 RUN apt update && apt install -y sysbench git curl procps \
     && pip install --upgrade pip \
+    && pip install curl \
     && pip install jupyter matplotlib psutil pandas
 WORKDIR /app
 COPY . .

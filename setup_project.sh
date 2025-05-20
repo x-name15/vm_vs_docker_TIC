@@ -79,7 +79,7 @@ chmod +x "$BASE_DIR/scripts/fix_docker_permissions.sh"
 # 6. Crear Dockerfile
 echo "Crear Dockerfile..."
 cat > "$BASE_DIR/scripts/Dockerfile" << 'EOF'
-FROM python:3.10-slim
+FROM ubuntu:20.04
 RUN apt update && apt install -y sysbench git curl procps \
     && pip install --upgrade pip \
     && pip install jupyter matplotlib psutil pandas
